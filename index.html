@@ -68,8 +68,12 @@
         <nav id="navmenu" class="navmenu">
           <ul>
             <li><a href="#hero" class="active">Inicio<br></a></li>
-            <li><a href="#about">Acerca de</a></li>
-            <li><a href="#services">Especialidades</a></li>
+            <li><a href="#about">Especialidades</a></li>
+            <!-- <li><a href="#services">Especialidades</a></li> -->
+            <li><a href="#testimonials">Testimonios</a></li>
+            <li><a href="#faq">Preguntas Frecuentes</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            
             <!--
             <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
@@ -107,7 +111,8 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section">
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+      <!-- <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in"> -->
+      <img src="assets/img/doctors/Lozano02.jpg" alt="Dra02" data-aos="fade-in"> 
 
       <div class="container position-relative">
 
@@ -133,17 +138,8 @@
             <div class="d-flex flex-column justify-content-center">
               <div class="row gy-4">
 
+                <!-- Control de peso -->
                 <!--
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="300">
-                    <i class="bi bi-clipboard-data"></i>
-                    <h4>Control de peso, enfermedades y nutrición deportiva</h4>
-                    <p>Control de peso y nutrición deportiva para tu mejor rendimiento</p>
-                  </div>
-                </div>
-                -->
-                <!-- End Icon Box -->
-
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box" data-aos="zoom-out" data-aos-delay="300">
                     <i class="bi bi-clipboard-data"></i>
@@ -151,19 +147,13 @@
                     <p>Control de peso y nutrición deportiva para tu mejor rendimiento</p>
                     <span class="tooltip-text">Tu salud es lo más importante y la base de todo es una alimentación adecuada tanto para prevenir como para atenderse enfermedades.</span>
                   </div>
-                </div><!-- End Icon Box -->
-                
-                <!--
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
-                    <i class="bi bi-gem"></i>
-                    <h4>Epigenética</h4>
-                    <p>Tu salud y bienestar desde la raíz genética</p>
-                  </div>
                 </div>
                 -->
                 <!-- End Icon Box -->
+                 <!-- Control de peso -->
 
+                <!-- Epigenética -->
+                 <!--
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
                     <i class="bi bi-gem"></i>
@@ -172,9 +162,13 @@
                     <br />
                     <a href="epigenetica.html" class="btn btn-primary mt-3">Aprende más</a>
                   </div>
-                </div><!-- End Icon Box -->
+                </div>
+                -->
+                <!-- End Icon Box -->
+                 <!-- Epigenética -->
                 
-
+                <!-- Enf Renales -->
+                <!---
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box" data-aos="zoom-out" data-aos-delay="500">
                     <i class="bi bi-inboxes"></i>
@@ -182,7 +176,10 @@
                     <p>Cuidado especializado para tu salud renal</p>
                     <a href="enfermedadesrenales.html" class="btn btn-primary mt-3">Aprende más</a>
                   </div>
-                </div><!-- End Icon Box -->
+                </div>
+                -->
+                <!-- End Icon Box -->
+                <!-- Enf Renales -->
 
               </div>
             </div>
@@ -193,7 +190,59 @@
 
     </section><!-- /Hero Section -->
 
-    
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container">
+
+        <div class="row gy-4 gx-5">
+
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/doctors/Lozano04_1.jpg" class="img-fluid" alt="Lozano03">
+            <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a> -->
+          </div>
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <h3>Especialidades</h3>
+            <p>
+              Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.
+            </p>
+            <ul>
+              <li>
+                <i class="fa-solid fas fa-heartbeat"></i>
+                <div>
+                  <h5>Control de peso, enfermedades y nutrición deportiva</h5>
+                  <p>Control de peso y nutrición deportiva para tu mejor rendimiento</p>
+                  <span class="tooltip-text">Tu salud es lo más importante y la base de todo es una alimentación adecuada tanto para prevenir como para atenderse enfermedades.</span>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fas fa-dna"></i>
+                <div>
+                  <h5>Epigenética</h5>
+                  <p>Tu salud y bienestar desde la raíz genética</p>
+                  <br />
+                  <a href="epigenetica.html" class="btn btn-primary mt-3">Aprende más</a>                  
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fas fa-user-md"></i>
+                <div>
+                  <h5>Enfermedades renales</h5>
+                  <p>Cuidado especializado para tu salud renal</p>
+                  <a href="enfermedadesrenales.html" class="btn btn-primary mt-3">Aprende más</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
@@ -334,6 +383,27 @@
                   </div>
                 </div><!-- End testimonial item -->
 
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/brenda.jpeg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Brenda</h3>
+                        <h4>Finanzas</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Hola mi nombre es Brenda tengo exactamente 1año y 1mes con mi nutriologa Claudia Lozano y seguiré de la mano de ella pues he visto cambios grandes en mi físico con su ayuda de claudia y ejercicio. Aún no llego a la meta pero poco nos falta para llegar.
+                        Estoy agradecida infinitamente con mi nutrióloga de confianza por ser parte mi proceso.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
               </div>
               <div class="swiper-pagination"></div>
             </div>
@@ -352,59 +422,13 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Ven y conocenos, programa una cita! </h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Ven y conócenos, programa una cita! </h2>
+        <p></p>
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
-          <div class="row">
-            <div class="col-md-4 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required="">
-            </div>
-          </div>
-
-          <!--
-          <div class="row">
-            <div class="col-md-4 form-group mt-3">
-              <input type="datetime-local" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" required="">
-            </div>
-            <div class="col-md-4 form-group mt-3">
-              <select name="department" id="department" class="form-select" required="">
-                <option value="">Select Department</option>
-                <option value="Department 1">Department 1</option>
-                <option value="Department 2">Department 2</option>
-                <option value="Department 3">Department 3</option>
-              </select>
-            </div>
-            <div class="col-md-4 form-group mt-3">
-              <select name="doctor" id="doctor" class="form-select" required="">
-                <option value="">Select Doctor</option>
-                <option value="Doctor 1">Doctor 1</option>
-                <option value="Doctor 2">Doctor 2</option>
-                <option value="Doctor 3">Doctor 3</option>
-              </select>
-            </div>
-          </div>
-          -->
-          <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
-          </div>
-          <div class="mb-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
-          </div>
-          <div class="text-center"><button type="submit">Solicitar Cita</button></div>
-        </form>
-
+      <div class="container" style="text-align: center;" data-aos="fade-up" data-aos-delay="100">
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/526562704587" target="_blank" > <img alt="Chat on WhatsApp" src="assets/img/WhatsAppButtonGreenMedium.png" />
+          <a /> 
       </div>
 
     </section><!-- /Appointment Section -->
@@ -414,8 +438,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Dudas frecuentes</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Preguntas Frecuentes</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -427,49 +451,169 @@
             <div class="faq-container">
 
               <div class="faq-item faq-active">
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                <h3>Preguntas Frecuentes Sobre Nutrición y Vida Saludable</h3>
                 <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                  <p></p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
+                <h3>¿Cuántas veces al día debo comer?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>No hay una regla fija, pero lo más importante es escuchar a tu cuerpo. Algunos prefieren 3 comidas grandes, mientras que otros se sienten mejor comiendo 5-6 comidas pequeñas. Lo importante es mantener un equilibrio y no saltarse comidas importantes.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                <h3>¿Es malo comer carbohidratos?</h3>
                 <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                  <p>No, los carbohidratos no son malos. Son la principal fuente de energía del cuerpo. Lo importante es elegir carbohidratos saludables, como frutas, verduras, granos integrales, y evitar los carbohidratos refinados como el azúcar procesada.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                <h3>¿Es mejor una dieta baja en grasa para perder peso?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>No necesariamente. Las grasas saludables, como las que se encuentran en el aguacate, frutos secos, y el aceite de oliva, son esenciales para el cuerpo. Lo importante es moderar las grasas saturadas y trans, no eliminarlas todas.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
+                <h3>¿Cuánto agua debo beber al día?</h3>
                 <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                  <p>La recomendación general es de unos 8 vasos de agua al día, pero esto puede variar según tu nivel de actividad, el clima, y tus necesidades personales. Escucha tu sed y mantén tu cuerpo hidratado.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                <h3>¿Debo eliminar el azúcar por completo de mi dieta?</h3>
                 <div class="faq-content">
-                  <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
+                  <p>No es necesario eliminar todo el azúcar, pero es importante reducir el consumo de azúcares añadidos, como los que se encuentran en refrescos y dulces. El azúcar natural en frutas, por ejemplo, es saludable cuando se consume con moderación.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>¿Qué tan importante es el desayuno?</h3>
+                <div class="faq-content">
+                  <p>El desayuno es importante para muchas personas, ya que proporciona energía después de un ayuno nocturno. Sin embargo, no todos necesitan desayunar temprano; lo más importante es comer cuando tengas hambre y elegir alimentos nutritivos.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              
+              <div class="faq-item">
+                <h3>¿Es saludable el ayuno intermitente?</h3>
+                <div class="faq-content">
+                  <p>Para algunas personas, el ayuno intermitente puede ser una estrategia útil para controlar el peso o mejorar la salud. Sin embargo, no es adecuado para todos, y es esencial hacerlo de manera equilibrada para evitar deficiencias nutricionales.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>¿Los productos orgánicos son mejores que los convencionales?</h3>
+                <div class="faq-content">
+                  <p>Los productos orgánicos suelen tener menos pesticidas, pero en términos de valor nutricional, no hay una gran diferencia. Lo más importante es comer una variedad de frutas y verduras, ya sean orgánicas o convencionales.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              
+              <div class="faq-item">
+                <h3>¿Qué alimentos son ricos en proteínas?</h3>
+                <div class="faq-content">
+                  <p>Las proteínas se encuentran en alimentos como carne, pescado, huevos, legumbres, tofu, y productos lácteos. Es fundamental consumir suficiente proteína para mantener la masa muscular y la salud general.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              
+              <div class="faq-item">
+                <h3>¿Debo tomar suplementos vitamínicos?</h3>
+                <div class="faq-content">
+                  <p>Si llevas una dieta equilibrada, es posible que no necesites suplementos. Sin embargo, algunas personas pueden tener deficiencias específicas (como vitamina D o hierro) y en esos casos, un suplemento podría ser útil. Es recomendable consultar a un médico.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              
+              <div class="faq-item">
+                <h3>¿Qué es mejor, la mantequilla o la margarina?</h3>
+                <div class="faq-content">
+                  <p>Ambas tienen pros y contras. La mantequilla es natural, pero tiene grasas saturadas, mientras que la margarina puede tener grasas trans. Lo mejor es optar por versiones sin grasas trans y usar ambas con moderación.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              
+              <div class="faq-item">
+                <h3>¿Comer tarde en la noche engorda?</h3>
+                <div class="faq-content">
+                  <p>No es tanto la hora en la que comes, sino qué y cuánto comes. Si te mantienes dentro de tus necesidades calóricas diarias, comer tarde no tiene por qué causar aumento de peso.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              
+              <div class="faq-item">
+                <h3>¿Cuánto ejercicio debo hacer para estar saludable?</h3>
+                <div class="faq-content">
+                  <p>Se recomienda hacer al menos 150 minutos de ejercicio moderado a la semana. Lo importante es encontrar una actividad que disfrutes y hacerla de manera regular para mantener tu cuerpo en movimiento.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              
+              <div class="faq-item">
+                <h3>¿Es malo tomar café?</h3>
+                <div class="faq-content">
+                  <p>En moderación, el café no es malo. De hecho, puede tener beneficios, como mejorar la concentración y el rendimiento físico. Sin embargo, el exceso de cafeína puede causar ansiedad o afectar el sueño, por lo que es mejor limitarlo a 2-3 tazas al día.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              
+              <div class="faq-item">
+                <h3>¿Qué son los "superalimentos"?</h3>
+                <div class="faq-content">
+                  <p>"Superalimentos" es un término de marketing que se usa para describir alimentos muy nutritivos como los arándanos, la quinoa o el aguacate. Aunque son saludables, no hay un solo alimento que por sí solo garantice la salud. La clave es una dieta equilibrada.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              
+              <div class="faq-item">
+                <h3>¿Debo evitar la sal por completo?</h3>
+                <div class="faq-content">
+                  <p>No, el sodio es esencial para el cuerpo, pero el exceso de sal puede causar problemas como la hipertensión. Lo ideal es reducir el consumo de alimentos procesados, que suelen tener mucho sodio, y moderar la sal añadida.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              
+              <div class="faq-item">
+                <h3>¿Las dietas "detox" funcionan?</h3>
+                <div class="faq-content">
+                  <p>El cuerpo ya tiene órganos, como el hígado y los riñones, que se encargan de desintoxicarlo. No necesitas seguir dietas extremas para "limpiar" el cuerpo. Lo mejor es mantener una dieta balanceada y saludable.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              
+              <div class="faq-item">
+                <h3>¿Cuál es la mejor manera de perder peso?</h3>
+                <div class="faq-content">
+                  <p>La mejor manera es combinar una dieta equilibrada con ejercicio regular. No hay soluciones mágicas. Perder peso lentamente y de manera constante es más efectivo y sostenible a largo plazo que las dietas rápidas.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              
+              <div class="faq-item">
+                <h3>¿El gluten es malo para todos?</h3>
+                <div class="faq-content">
+                  <p>El gluten solo es perjudicial para quienes tienen enfermedad celíaca o sensibilidad al gluten. Si no tienes estas condiciones, no hay necesidad de eliminar el gluten de tu dieta, ya que muchos alimentos que lo contienen son nutritivos.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              
+              <div class="faq-item">
+                <h3>¿Es importante contar calorías?</h3>
+                <div class="faq-content">
+                  <p>Para algunas personas, contar calorías puede ser útil para controlar el peso, pero no es la única manera. Lo más importante es centrarse en la calidad de los alimentos y escuchar las señales de hambre y saciedad de tu cuerpo.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -490,7 +634,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Galeria</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p></p>
       </div><!-- End Section Title -->
 
       <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
@@ -499,64 +643,64 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/malestares_salud_mental.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/malestares_salud_mental.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-2.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/esp_salud_renal_01.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/esp_salud_renal_01.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-3.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/habitos_nocturnos.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/habitos_nocturnos.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-4.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/plan_no_funciona.png" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/plan_no_funciona.png" alt="plan_no_funciona" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-5.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/antes_ahora_01.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/antes_ahora_01.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-6.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/antes_ahora_02.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/antes_ahora_02.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-7.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/antes_ahora_03.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/antes_ahora_03.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-8.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/antes_ahora_04.png" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/gallery/antes_ahora_04.png" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
@@ -567,87 +711,76 @@
 
     </section><!-- /Gallery Section -->
 
+
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contacto</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Información de Contacto</h2>
+        <p></p>
       </div><!-- End Section Title -->
 
       <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-        <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.5330426703913!2d-106.44119262389513!3d31.728648336821454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75c007124a10b%3A0x75e84e601f4b713f!2sCayetano%20L%C3%B3pez%20835%2C%20Mascare%C3%B1as%2C%2032340%20Ju%C3%A1rez%2C%20Chih.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1729698662397!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
       </div><!-- End Google Maps -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Nuestra Ubicación</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+          <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+  
+            <!-- Contact Information Section -->
+            <div class="row justify-content-center mb-4">
+              <!-- Dirección -->
+              <div class="col-lg-3 d-flex flex-column align-items-center">
+                <div class="info-item d-flex flex-column align-items-center" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bi bi-geo-alt"></i>
+                  <div>
+                    <h3>Dirección</h3>
+                    <p>Cayetano López 835-4 Local #5 Cd. Juárez, Chihuahua México</p>
+                  </div>
+                </div>
               </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Llámanos</h3>
-                <p>+1 5589 55488 55</p>
+          
+              <!-- Teléfono -->
+              <div class="col-lg-3 d-flex flex-column align-items-center">
+                <div class="info-item d-flex flex-column align-items-center" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bi bi-telephone"></i>
+                  <div>
+                    <h3>Teléfono</h3>
+                    <p>+52 656 270 4587</p>
+                  </div>
+                </div>
               </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>info@example.com</p>
+          
+              <!-- Correo electrónico -->
+              <div class="col-lg-3 d-flex flex-column align-items-center">
+                <div class="info-item d-flex flex-column align-items-center" data-aos="fade-up" data-aos-delay="500">
+                  <i class="bi bi-envelope"></i>
+                  <div>
+                    <h3>Correo Electrónico</h3>
+                    <p>claudialozanona@gmail.com</p>
+                  </div>
+                </div>
               </div>
-            </div><!-- End Info Item -->
-
-          </div>
-
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
+            </div><!-- End Contact Info -->
+          
+            <!-- Image Section -->
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <img src="assets/img/doctors/Lozano05.jpg" class="img-fluid" alt="Lozano05">
               </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
+            </div>
+            
+          </div>          
 
       </div>
 
     </section><!-- /Contact Section -->
+
 
   </main>
 
@@ -657,22 +790,23 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Claudia Lozano</span>
+            <span class="sitename">Nutrióloga Claudia Lozano</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Teléfono:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Correo:</strong> <span>info@claudialozano.com</span></p>
+            <p>Cayetano López 835-4 Local #5</p>
+            <p>Cd. Juárez, Chihuahua México</p>
+            <p class="mt-3"><strong>Teléfono:</strong> <span>+52 656 270 4587</span></p>
+            <p><strong>Correo:</strong> <span>claudialozanona@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
             <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href="https://www.instagram.com/claudialozano_nutriologa/"><i class="bi bi-instagram"></i></a>
             <a href=""><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
+        <!-- Sección Indefinida
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>No </h4>
           <ul>
@@ -716,7 +850,7 @@
             <li><a href="#">Flexo</a></li>
           </ul>
         </div>
-
+        -->
       </div>
     </div>
 
